@@ -2,6 +2,7 @@
   "name": "GIT is good",
   "sections": [
     { "section":"1_intro" },
-    { "section":"2_problems" }
+    { "section":"2_problems" },
+    { "section":"3_get_better" }
   ]
 }
