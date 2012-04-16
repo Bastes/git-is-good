@@ -1,5 +1,5 @@
 !SLIDE bullets
-# GIT better #
+# GIT better
 
 * Database overview
 * Usual commands
@@ -8,7 +8,7 @@
 
 
 !SLIDE bullets
-# Database overview #
+# Database overview
 
 * Repositories
 * Commits
@@ -17,13 +17,13 @@
 
 
 !SLIDE center
-# Repositories #
+# Repositories
 
 ## PICTUREME: trees
 
 
 !SLIDE bullets commandline
-# Repositories #
+# Repositories
 
 * Complete history (local and remotes)
 * Any number of remotes
@@ -31,13 +31,13 @@
 
 
 !SLIDE center
-# Commits #
+# Commits
 
 ## PICTUREME: wood
 
 
 !SLIDE bullets
-# Commits #
+# Commits
 
 * Unique non-incremental hash id
 * Only what's been added (files, lines)
@@ -46,13 +46,13 @@
 
 
 !SLIDE center
-# Tags #
+# Tags
 
 ## PICTUREME: engraving on a tree
 
 
 !SLIDE bullets
-# Tags #
+# Tags
 
 * Label referencing a commit
 * Well, that's all it's doing
@@ -65,7 +65,7 @@
 
 
 !SLIDE bullets
-# Branches #
+# Branches
 
 * Label referencing a commit
 * Can be selected
@@ -74,7 +74,7 @@
 
 
 !SLIDE commandline
-# Usual commands (1) #
+# Usual commands (1)
 
 Make any directory a git repository
     $ git init
@@ -87,7 +87,7 @@ Adds current changes to the last commit
 
 
 !SLIDE commandline
-# Usual commands (2) #
+# Usual commands (2)
 
 Create a branch (starting at current commit)
     $ git branch the-branch
@@ -100,7 +100,7 @@ See current files status (changed, staged, ...)
 
 
 !SLIDE commandline
-# Usual commands (3) #
+# Usual commands (3)
 
 Undo the last commit, keeping changes as if uncommited
     $ git reset HEAD^
@@ -113,7 +113,7 @@ Apply a commit it on top of current branch
 
 
 !SLIDE commandline
-# Usual commands (4) #
+# Usual commands (4)
 
 Update remote informations
     $ git fetch the-remote
@@ -126,13 +126,13 @@ Set a remote branch to a specific commit
 
 
 !SLIDE center
-# Rebasing #
+# Rebasing
 
 ## PICTUREME: grafting a branch
 
 
 !SLIDE bullets
-# Why not just merge ? #
+# Why not just merge ?
 
 * Atomic changes VS. Different codebases
 * Branche's author VS. Repository admin
@@ -141,13 +141,13 @@ Set a remote branch to a specific commit
 
 
 !SLIDE center
-# Rebase effects #
+# Rebase effects
 
 ## PICTUREME: rebase before-after
 
 
 !SLIDE commandline
-# How to rebase #
+# How to rebase
 
 Start rebasing on a branch
     $ git rebase the-branch
@@ -160,7 +160,7 @@ Conflict ? Edit conflicting files, then
 
 
 !SLIDE bullets
-# Tools and advices #
+# Tools and advices
 
 * Gui
 * Configuration
@@ -168,7 +168,7 @@ Conflict ? Edit conflicting files, then
 
 
 !SLIDE bullets
-# Gui #
+# Gui
 
 * MacOS:
   * GitX [http://gitx.frim.nl/](http://gitx.frim.nl/)
@@ -180,7 +180,7 @@ Conflict ? Edit conflicting files, then
 
 
 !SLIDE commandline
-# Configuration #
+# Configuration
 
 Your references
     $ git config --global user.name "Whoever Youare"
@@ -192,7 +192,7 @@ Global ignore file
 
 
 !SLIDE commandline
-# Configuration #
+# Configuration
 
 Color output
     $ git config --global color.branch auto
@@ -202,7 +202,7 @@ Color output
 
 
 !SLIDE commandline
-# Configuration #
+# Configuration
 
 Auto-rebase by default
     $ git config --global branch.autosetuprebase always
@@ -216,7 +216,7 @@ Merge tool
 
 
 !SLIDE bullets
-# Advice #
+# Advice
 
 * Keep it atomic
 * Make topic branches

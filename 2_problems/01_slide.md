@@ -1,5 +1,5 @@
 !SLIDE bullets
-# SVN VS. GIT #
+# SVN VS. GIT
 
 * Network addict VS. Full local
 * Fossile VS. Live history

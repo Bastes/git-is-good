@@ -1,21 +1,21 @@
 !SLIDE
-# GIT is Good ! #
+# GIT is Good !
 
 
 !SLIDE center
-# Intervention #
+# Intervention
 
 ![Hello, my name is ............](./svn-anonymous.png)
 
 
 !SLIDE center
-# Rehab #
+# Rehab
 
 ![Trees](./trees.jpg)
 
 
 !SLIDE bullets
-# 2-step program #
+# 2-step program
 
 * Admit there are problems
 * GIT better

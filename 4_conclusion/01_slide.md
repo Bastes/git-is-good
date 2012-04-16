@@ -1,9 +1,9 @@
 !SLIDE
-# Questions ? #
+# Questions ?
 
 
 !SLIDE
-# Thank you :) #
+# Thank you :)
 
 [http://git-is-good.herokuapp.com](http://git-is-good.herokuapp.com)
 
