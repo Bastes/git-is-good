@@ -19,7 +19,7 @@
 !SLIDE center
 # Repositories
 
-## PICTUREME: trees
+![Trees](./trees.jpg)
 
 
 !SLIDE bullets commandline
@@ -33,7 +33,7 @@
 !SLIDE center
 # Commits
 
-## PICTUREME: wood
+![Wood](./wood.jpg)
 
 
 !SLIDE bullets
@@ -48,7 +48,7 @@
 !SLIDE center
 # Tags
 
-## PICTUREME: engraving on a tree
+![Tree tag](./tree-tag.jpg)
 
 
 !SLIDE bullets
@@ -61,7 +61,7 @@
 !SLIDE center
 # Branches
 
-## PICTUREME: Terminal leaf on a branch
+![Branch](./branch.jpg)
 
 
 !SLIDE bullets
@@ -69,7 +69,7 @@
 
 * Label referencing a commit
 * Can be selected
-* When selected, follows on each commit
+* Follows progression
 * Easy to move around (reset, rebase)
 
 
@@ -128,13 +128,13 @@ Set a remote branch to a specific commit
 !SLIDE center
 # Rebasing
 
-## PICTUREME: grafting a branch
+![Graft](./graft.jpg)
 
 
 !SLIDE bullets
 # Why not just merge ?
 
-* Atomic changes VS. Different codebases
+* Atomic changes VS. Big diffs
 * Branche's author VS. Repository admin
 * Topic branches VS. Blurry master
 * Readable history VS. Tangle of commits
@@ -143,7 +143,7 @@ Set a remote branch to a specific commit
 !SLIDE center
 # Rebase effects
 
-## PICTUREME: rebase before-after
+![Rebase](./rebase.png)
 
 
 !SLIDE commandline
