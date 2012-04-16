@@ -5,13 +5,13 @@
 !SLIDE center
 # Intervention #
 
-## PICTUREME: AA-style tag
+![Hello, my name is ............](./svn-anonymous.png)
 
 
 !SLIDE center
 # Rehab #
 
-## PICTUREME: Trees in a garden
+![Trees](./trees.jpg)
 
 
 !SLIDE bullets
