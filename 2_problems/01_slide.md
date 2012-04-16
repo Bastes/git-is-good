@@ -1,4 +1,4 @@
-!SLIDE bullets incremental
+!SLIDE bullets
 # SVN VS. GIT #
 
 * Network addiction VS. Full local repository
@@ -25,7 +25,7 @@
 ## PICTUREME: SVN silo-like branches merging VS. GIT graft-like rebasing
 
 
-!SLIDE commandline incremental
+!SLIDE commandline
 # Expensive branches VS. Free branches
 
     $ svn copy http://svn.example.com/repos/calc/trunk \

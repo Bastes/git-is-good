@@ -1,4 +1,4 @@
-!SLIDE bullets incremental
+!SLIDE bullets
 # GIT better #
 
 * Database overview
@@ -6,7 +6,7 @@
 * Rebasing
 
 
-!SLIDE bullets incremental
+!SLIDE bullets
 # Database overview #
 
 * Repositories
@@ -21,7 +21,7 @@
 ## PICTUREME: trees
 
 
-!SLIDE bullets commandline incremental
+!SLIDE bullets commandline
 # Repositories #
 
 * Complete history (local and remotes)
@@ -35,7 +35,7 @@
 ## PICTUREME: wood
 
 
-!SLIDE bullets incremental
+!SLIDE bullets
 # Commits #
 
 * Unique non-incremental hash id
@@ -49,7 +49,7 @@
 ## PICTUREME: engraving on a tree
 
 
-!SLIDE bullets incremental
+!SLIDE bullets
 # Tags #
 
 * Label referencing a commit
@@ -62,7 +62,7 @@
 ## PICTUREME: Terminal leaf on a branch
 
 
-!SLIDE bullets incremental
+!SLIDE bullets
 # Branches #
 
 * Label referencing a commit

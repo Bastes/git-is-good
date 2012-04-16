@@ -14,7 +14,7 @@
 ## PICTUREME: Trees in a garden
 
 
-!SLIDE bullets incremental
+!SLIDE bullets
 # 2-step program #
 
 * Admit there are problems
