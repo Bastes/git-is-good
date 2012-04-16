@@ -3,6 +3,7 @@
   "sections": [
     { "section":"1_intro" },
     { "section":"2_problems" },
-    { "section":"3_get_better" }
+    { "section":"3_get_better" },
+    { "section":"4_conclusion" }
   ]
 }

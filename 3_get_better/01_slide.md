@@ -223,14 +223,3 @@ Merge tool
 * Rebase before merge
 * Use fixup! and squash!
 * DON'T PANIC
-
-
-!SLIDE
-# Questions ? #
-
-
-!SLIDE
-# Thank you :) #
-
-## FIXME: presentation url
-## FIXME: presentation git
