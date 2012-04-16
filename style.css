@@ -1,0 +1,38 @@
+@font-face {
+	font-family: 'Fredoka One';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Fredoka One'), local('FredokaOne-Regular'), url('http://themes.googleusercontent.com/static/fonts/fredokaone/v1/SL0aFUFfkFMMdariYQ3_YYbN6UDyHWBl620a-IRfuBk.woff') format('woff');
+}
+
+.slide {
+	background-image: linear-gradient(bottom, rgb(4,66,0) 4%, rgb(4,41,1) 50%);
+	background-image: -o-linear-gradient(bottom, rgb(4,66,0) 4%, rgb(4,41,1) 50%);
+	background-image: -moz-linear-gradient(bottom, rgb(4,66,0) 4%, rgb(4,41,1) 50%);
+	background-image: -webkit-linear-gradient(bottom, rgb(4,66,0) 4%, rgb(4,41,1) 50%);
+	background-image: -ms-linear-gradient(bottom, rgb(4,66,0) 4%, rgb(4,41,1) 50%);
+	background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.04, rgb(4,66,0)), color-stop(0.5, rgb(4,41,1)));
+}
+
+.slide,
+.slide a,
+.slide a:link,
+.slide a:visited,
+.slide a:active,
+.slide a:hover,
+.commandline code.command {
+	color: #c7ff85;
+}
+
+.slide,
+.slide h1,
+.slide h2 {
+	font-family: 'Fredoka One';
+}
+
+#footer {
+	background-color: transparent;
+	border: none;
+	color: white;
+}
+
