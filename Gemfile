@@ -9,3 +9,7 @@ gem 'heroku'
 group :development do
   gem 'wkhtmltopdf-binary'
 end
+
+group :production do
+  gem 'wkhtmltopdf-heroku'
+end
