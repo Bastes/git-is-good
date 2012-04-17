@@ -1,4 +1,4 @@
-!SLIDE bullets
+!SLIDE bullets incremental
 # SVN VS. GIT
 
 * Network addict VS. Full local
@@ -17,7 +17,7 @@
 ![SVN (fossile) VS. GIT (live)](./svn-fossile-git-live.png)
 
 
-!SLIDE commandline
+!SLIDE commandline incremental
 ## Expensive VS. Free branch
 
     $ svn copy http://svn.example.com/repos/calc/trunk \

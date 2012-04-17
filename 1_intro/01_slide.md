@@ -14,7 +14,7 @@
 ![Trees](./trees.jpg)
 
 
-!SLIDE bullets
+!SLIDE bullets incremental
 # 2-step program
 
 * Admit there are problems

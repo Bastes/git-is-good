@@ -1,4 +1,4 @@
-!SLIDE bullets
+!SLIDE bullets incremental
 # GIT better
 
 * Database overview
@@ -7,7 +7,7 @@
 * Tools and advices
 
 
-!SLIDE bullets
+!SLIDE bullets incremental
 # Database overview
 
 * Repositories
@@ -22,7 +22,7 @@
 ![Trees](./trees.jpg)
 
 
-!SLIDE bullets commandline
+!SLIDE bullets incremental
 # Repositories
 
 * Complete history (local and remotes)
@@ -36,7 +36,7 @@
 ![Wood](./wood.jpg)
 
 
-!SLIDE bullets
+!SLIDE bullets incremental
 # Commits
 
 * Unique non-incremental hash id
@@ -51,7 +51,7 @@
 ![Tree tag](./tree-tag.jpg)
 
 
-!SLIDE bullets
+!SLIDE bullets incremental
 # Tags
 
 * Label referencing a commit
@@ -64,7 +64,7 @@
 ![Branch](./branch.jpg)
 
 
-!SLIDE bullets
+!SLIDE bullets incremental
 # Branches
 
 * Label referencing a commit
@@ -73,38 +73,51 @@
 * Easy to move around (reset, rebase)
 
 
-!SLIDE commandline
+!SLIDE commandline incremental
 # Usual commands (1)
 
 Make any directory a git repository
     $ git init
+Clone a remote git repository
+    $ git clone git://url.to.your/repository.git
 Add a file / directory to the upcoming commit
     $ git add file-or-directory
 Commit any current changes with a message
     $ git commit -am "Whatever message"
-Adds current changes to the last commit
-    $ git commit --amend -a
 
 
-!SLIDE commandline
+!SLIDE commandline incremental
 # Usual commands (2)
 
+Adds current changes to the last commit
+    $ git commit --amend -a
 Create a branch (starting at current commit)
     $ git branch the-branch
 Get to a branch (and set it as current branch)
     $ git checkout the-branch
-Review a specific commit (detached from a branch)
+Get to a specific commit (detached from a branch)
     $ git checkout the-commit-hash-or-tag-name
-See current files status (changed, staged, ...)
-    $ git status
 
 
-!SLIDE commandline
+!SLIDE commandline incremental
 # Usual commands (3)
+
+Read current files status (changed, staged, ...)
+    $ git status
+Read history
+    $ git log
+Read differences between two commits
+    $ git diff first-commit second-commit
+Basic GUI
+    $ gitk
+
+
+!SLIDE commandline incremental
+# Usual commands (4)
 
 Undo the last commit, keeping changes as if uncommited
     $ git reset HEAD^
-Undo the last commit, destroying any changes (commited or not)
+Undo the last commit, undoing any changes
     $ git reset --hard HEAD^
 Undo current uncommited changes
     $ git reset --hard HEAD
@@ -112,8 +125,21 @@ Apply a commit it on top of current branch
     $ git cherry-pick the-commit-hash-branch-or-tag-name
 
 
-!SLIDE commandline
-# Usual commands (4)
+!SLIDE commandline incremental
+# Usual commands (5)
+
+Stash current changes
+    $ git stash
+Apply latest stash
+    $ git stash apply
+Drop latest stash
+    $ git stash drop
+Pop (apply then drop) latest stash
+    $ git stash pop
+
+
+!SLIDE commandline incremental
+# Usual commands (6)
 
 Update remote informations
     $ git fetch the-remote
@@ -131,7 +157,7 @@ Set a remote branch to a specific commit
 ![Graft](./graft.jpg)
 
 
-!SLIDE bullets
+!SLIDE bullets incremental
 # Why not just merge ?
 
 * Atomic changes VS. Big diffs
@@ -146,7 +172,7 @@ Set a remote branch to a specific commit
 ![Rebase](./rebase.png)
 
 
-!SLIDE commandline
+!SLIDE commandline incremental
 # How to rebase
 
 Start rebasing on a branch
@@ -159,15 +185,22 @@ Conflict ? Edit conflicting files, then
     $ git rebase --continue
 
 
-!SLIDE bullets
+!SLIDE bullets incremental
 # Tools and advices
 
+* Online
 * Gui
 * Configuration
 * Advice
 
+!SLIDE bullets incremental
+# Online
 
-!SLIDE bullets
+* GitHub [https://github.com](https://github.com)
+* Gist [https://gist.github.com](https://gist.github.com)
+* Heroku [http://www.heroku.com/](http://www.heroku.com/)
+
+!SLIDE bullets incremental
 # Gui
 
 * MacOS:
@@ -179,7 +212,7 @@ Conflict ? Edit conflicting files, then
   * TortoiseGit [http://code.google.com/p/tortoisegit/](http://code.google.com/p/tortoisegit/)
 
 
-!SLIDE commandline
+!SLIDE commandline incremental
 # Configuration
 
 Your references
@@ -191,7 +224,7 @@ Global ignore file
     $ git config --global core.excludesfile ~/.gitignore
 
 
-!SLIDE commandline
+!SLIDE commandline incremental
 # Configuration
 
 Color output
@@ -201,7 +234,7 @@ Color output
     $ git config --global color.status auto
 
 
-!SLIDE commandline
+!SLIDE commandline incremental
 # Configuration
 
 Auto-rebase by default
@@ -215,7 +248,7 @@ Merge tool
     $ git config --global merge.tool opendiff
 
 
-!SLIDE bullets
+!SLIDE bullets incremental
 # Advice
 
 * Keep it atomic
